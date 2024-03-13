@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-family: 'DejaVu Sans', 'Arial', sans-serif;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('fonts/DejaVuSans.ttf');
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+#container {
+    background-color: maroon;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#content {
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#header {
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+#footer {
+    padding: 10px;
+    text-align: center;
+    background-color: darkgreen;
+    border-top: 1px solid white;
+}
+
+#menu {
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    padding: 10px;
+    /* text-decoration: underline; */
+    background-color: #580000;
+    color: white;
+}
