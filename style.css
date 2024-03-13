@@ -25,12 +25,13 @@ body {
 
 #content {
     /* border-radius: 5px; */
+    word-wrap: normal;
     border: 2px solid black;
     color: white;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    height: 50%;
+    height: 60%;
     position: relative;
     background: rgb(0, 0, 0);
     background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(110, 110, 110, 1) 100%);
@@ -106,4 +107,20 @@ body {
     /* text-decoration: underline; */
     text-decoration: underline;
     color: white;
+}
+
+#content a {
+    /* padding: 10px; */
+    text-decoration: none;
+    color: yellow;
+}
+
+#content a:hover {
+    /* padding: 10px; */
+    text-decoration: underline;
+    color: yellow;
+}
+
+.ism-slider {
+    border: 2px solid black;
 }

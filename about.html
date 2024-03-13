@@ -10,12 +10,17 @@
 
         gtag('config', 'G-2H6VE4VPKP');
     </script>
+    <link rel="stylesheet" href="ism/css/my-slider2.css" />
+    <link rel="stylesheet" href="ism/css/my-slider.css" />
+    <script src="ism/js/ism-2.2.min.js"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deshbandhu Swimming & Athletic Club - About</title>
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 </head>
 
 <body>
@@ -24,7 +29,7 @@
         &nbsp;&nbsp;
         <div style="display: flex; justify-content: center; align-content: center; flex-direction: column;"><span
                 style="font-size: xx-large;">Deshbandhu Swimming & Athletic Club</span>
-            
+
             <br>Estd. 1919
         </div>
     </div>
@@ -37,13 +42,58 @@
     </div>
     <br>
     <div id="content">
-        Welcome to our official website of Deshbandhu Park!
+        Deshbandhu Swimming & Athletic Club was established in 1919 and passed 100 years after 2018.<br>
+        Scroll down to read more.
+        <p> </p>
+        <center><img src="img/MAIN.jpg" style="width: 41%; border: 2px solid black;"></center>
+        <hr size="1" color="white">
+        <h2 id="swimming">Swimming</h2>
+        <ul>
+            <li>One of the oldest and best swimming coaching center in North Kolkata.</li>
+            <li>Modern pool with clean, fresh, purified, and treated water.</li>
+            <li>All COVID-19 guidelines are maintained as instructed by Govt. of West Bengal.</li>
+            <li>All Ladies, Gents and Kids can learn swimming here.</li>
+            <li>Timings are in Morning, Evening, and Night.</li>
+            <li>You can learn and practice swimming from April to September every year.</li>
+            <li>Any query related, please contact us by <a href="contact.html">clicking this yellow link</a>.</li>
+        </ul>
+
+        <center><img src="img/Swimming2.png" style="width: 90%; border: 2px solid black;"></center>
+        <hr size="1" color="white">
+        <h2 id="gym">Gym</h2>
+        <ul>
+            <li>Modern and best gym instruments with open space.</li>
+            <li>Manual instruments also available.</li>
+            <li>Experienced instructors are also available.</li>
+            <li>Both Ladies & Gents can learn gym and exercise here.</li>
+            <li>Open from Morning (6 AM - 10 AM) & Evening (5 PM - 9 PM)</li>
+            <li>Any query related, please contact us by <a href="contact.html">clicking this yellow link</a>.</li>
+        </ul>
+        <center><img src="img/deshbandhu-swimming-athletic-club-2488745.webp" style="width: 90%; border: 2px solid black;"></center>
+        <hr size="1" color="white">
+        <h2 id="hours">Open Hours</h2>
+        <ul>
+            <li>Sunday: Morning 6 AM - 10 AM, Evening 5 PM - 9 PM</li>
+            <li>Monday - <b><font color="red">CLOSED</font></b></li>
+            <li>Tuesday - Morning 6 AM - 10 AM, Evening 5 PM - 9 PM</li>
+            <li>Wednesday - Morning 6 AM - 10 AM, Evening 5 PM - 9 PM</li>
+            <li>Thursday - Morning 6 AM - 10 AM, Evening 5 PM - 9 PM</li>
+            <li>Friday - Morning 6 AM - 10 AM, Evening 5 PM - 9 PM</li>
+            <li>Saturday - Morning 6 AM - 10 AM, Evening 5 PM - 9 PM</li>
+        </ul>
     </div>
     <br>
     <div id="footer">
         Copyright &copy; <span id="getPresentYr">2024</span> Deshbandhu Swimming & Athletic Club. All rights
         reserved.
     </div>
+    <script>
+
+        let span = document.getElementById('getPresentYr');
+        const d = new Date();
+        let year = d.getFullYear();
+        span.innerHTML = year;
+    </script>
 </body>
 
 </html>
