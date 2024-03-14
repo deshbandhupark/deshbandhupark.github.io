@@ -20,7 +20,7 @@
 
 <body>
     <div id="header">
-        <a href="index.html"><img src="img/icon.png" alt="Image Unavailable" style="width: 8%; height: 20%;"></a>
+        <img src="img/icon.png" alt="Image Unavailable" style="width: 8%; height: 20%;">
         &nbsp;&nbsp;
         <div style="display: flex; justify-content: center; align-content: center; flex-direction: column;"><span style="font-size: xx-large;">Deshbandhu Swimming & Athletic Club</span>
         <br>Estd. 1919</div>
@@ -41,7 +41,10 @@
         Copyright &copy; <span id="getPresentYr">2024</span> Deshbandhu Swimming & Athletic Club. All rights
         reserved.
     </div>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+        const d = new Date();
+        document.getElementById('getPresentYr').innerHTML = d.getFullYear();
+    </script>
 </body>
 
 </html>
