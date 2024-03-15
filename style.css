@@ -120,3 +120,87 @@ body {
     text-decoration: underline;
     color: yellow;
 }
+
+.ism-slider {
+    border: 2px solid black;
+}
+
+#upcomingbadge {
+    content: 'UPCOMING';
+    border: 2px solid #db9418;
+    background: rgb(252, 131, 0);
+    background: -moz-linear-gradient(0deg, rgba(252, 131, 0, 1) 0%, rgba(252, 227, 0, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(252, 131, 0, 1) 0%, rgba(252, 227, 0, 1) 100%);
+    background: linear-gradient(0deg, rgba(252, 131, 0, 1) 0%, rgba(252, 227, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fc8300", endColorstr="#fce300", GradientType=1);
+    padding: 5px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: x-small;
+    width: fit-content
+}
+
+#todaybadge {
+    content: 'TODAY';
+    border: 2px solid #04420f;
+    background: rgb(13, 60, 21);
+    background: -moz-linear-gradient(0deg, rgba(13, 60, 21, 1) 0%, rgba(6, 112, 31, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(13, 60, 21, 1) 0%, rgba(6, 112, 31, 1) 100%);
+    background: linear-gradient(0deg, rgba(13, 60, 21, 1) 0%, rgba(6, 112, 31, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d3c15", endColorstr="#06701f", GradientType=1);
+    padding: 5px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: x-small;
+    width: fit-content
+}
+
+#passedbadge {
+    content: 'PASSED';
+    border: 2px solid #38000a;
+    background: rgb(50, 3, 20);
+    background: -moz-linear-gradient(0deg, rgba(50, 3, 20, 1) 0%, rgba(142, 3, 34, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50, 3, 20, 1) 0%, rgba(142, 3, 34, 1) 100%);
+    background: linear-gradient(0deg, rgba(50, 3, 20, 1) 0%, rgba(142, 3, 34, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d3c15", endColorstr="#06701f", GradientType=1);
+    padding: 5px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: x-small;
+    width: fit-content
+}
+
+#eventprops {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    margin-top: 1px 0;
+    line-height: 0px;
+}
+
+#edt {
+    font-size: 0.9em;
+}
+
+#el {
+    text-decoration: none;
+    color: white;
+}
+
+#el:hover {
+    color: white;
+}
